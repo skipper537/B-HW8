@@ -1,0 +1,113 @@
+body {
+    width: 1440px;
+   
+   align-items: center;
+   justify-content: center;
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+  }
+  
+  .box {
+    display: grid;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .box:nth-child(3) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(7) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(11) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(15) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(19) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(23) {
+    background-color: rgb(255, 0, 0);
+    color: #000;
+  }
+  .box:nth-child(21) {
+    background-color: rgb(25, 0, 255);
+    color: #000;
+  }
+  .box:nth-child(22) {
+    background-color: rgb(25, 0, 255);
+    color: #000;
+  }
+  .box:nth-child(24) {
+    background-color: rgb(25, 0, 255);
+    color: #000;
+  }
+  .button1 {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  .button1 button {
+   display: flex;
+    background-color: rgba(68, 211, 168, 1);
+    border: none;
+    font-size: 24px;
+    color: #FFFFFF;
+   margin-top: 20px;
+    width: 501px;
+    height: 92px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100px;
+  }
+   .button2::before {
+    content: '' ;
+border-top: 2px solid rgba(196, 196, 196, 1);
+border-bottom:2px solid rgba(196, 196, 196, 1) ;
+padding: 8px ;
+display: block;
+width: 200px;
+height: 2px;
+right: 276px;
+position: relative;
+text-align: center;
+margin: -100px;
+  }
+  .button2::after {
+    content: '' ;
+border-top: 2px solid rgba(196, 196, 196, 1);
+border-bottom:2px solid rgba(196, 196, 196, 1) ;
+padding: 8px ;
+display: block;
+width: 200px;
+height: 2px;
+left: 276px;
+position: relative;
+text-align: center;
+margin: -100px;
+  }
+
+  
+  
+  
